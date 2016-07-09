@@ -2,6 +2,9 @@ source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.0'
+gem "better_errors"
+gem "binding_of_caller"
+gem 'pry-byebug'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.3'
 # Use Uglifier as compressor for JavaScript assets
@@ -36,8 +39,6 @@ group :test, :development do
   gem "rspec-rails"
   gem "capybara"
   gem "selenium-webdriver"
-  gem "better_errors"
-  gem "binding_of_caller"
   gem "factory_girl_rails"
   gem "simplecov"
   gem "database_cleaner"
